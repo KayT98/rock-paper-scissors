@@ -29,6 +29,6 @@ while True:
         print("That's not a valid play!")
 
 # loop gameplay
-    retry = input("Play again? y/n: ")
+    retry = input("Retry? y/n: ")
     if retry.lower() != 'y':
         break
